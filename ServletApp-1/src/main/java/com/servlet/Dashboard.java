@@ -17,7 +17,7 @@ public class Dashboard extends HttpServlet{
 		
 		System.out.println("Method Call");
 		
-		resp.getWriter().print("<h1>Welcome To Dashboard</h1>");
+		resp.getWriter().print("<h1 style=\"color: red; background-color: yellow; text-align: center\">Welcome To Dashboard</h1>");
 	}
 
 }
